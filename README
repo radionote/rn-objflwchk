@@ -1,0 +1,12 @@
+rn-objflwchk
+
+http://radionote.blogspot.com  2008-12-31
+
+System rn-objflwchk (Object Flow Checkpoint) is in order to check flowing objects at several checkpoints.
+
+Typical installation will be done by the following steps.
+
+1. Place directory rn-objflwchk to a shared directory
+2. Edit file rn-objflwchk/inventory/conf/checkpoints.definition to define checkpoints
+3. Delete directories rn-objflwchk/inventory/checkpoints-records/* and create directories whose names are those of defined checkpoints
+4. Execute rn-objflwchk/bin/checker.sh (on Unix) or rn-objflwchk/bin/checker.bat (on Win32) at each checkpoint

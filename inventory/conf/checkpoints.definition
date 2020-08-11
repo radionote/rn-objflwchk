@@ -1,0 +1,6 @@
+#checkpoint
+#	checkpoints, objects must be checked before
+
+foo
+bar
+foobar	foo;bar
